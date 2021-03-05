@@ -1,0 +1,10 @@
+Imie Nazwisko Numer punkty nr_cwiczenia inne informacje
+Jacek Kowalski 123456 10 1 wszystkie punkty zrobione
+Jacek Kowalski 123456 5 2 frgsdrg
+Zuza Nowak 654321 3 1 minimalnie zrobione zadanie
+Zuza Nowak 654321 10 2 wzorowo
+Jacek Plac3k 224466 10 3 podejrzanie dobre zadanie
+Jacek Kowalski 123456 5 2 grsgdsrg
+Zuza Nowak 654321 3 1 minimalnie zrobione zadanie
+Zuza Nowak 654321 10 2 wzorowo
+Jacek Placek 224466 10 3 podejrzanie dobre zadanie

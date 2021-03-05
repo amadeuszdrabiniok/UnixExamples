@@ -1,0 +1,6 @@
+#!/bin/sh
+who | sed 's/ .*//' | while read username
+do
+	echo "$username"
+	ps -u "$username"
+done

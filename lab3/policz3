@@ -1,0 +1,32 @@
+#!/bin/sh
+licznik=0
+if [ "$#" -gt "$licznik" ]
+then
+	if [ "$1" == "-a" ]
+	then
+		licznik=$((licznik+1))
+		if [ "$#" -gt 1 ]
+		then
+			while [ "$licznik" -lt "$#" ]
+			do
+				licznik=$((licznik+1))
+				liczba=`ls -1 -a ${!licznik} | wc -l`
+				liczba=`expr $liczba - 2`
+				echo $liczba
+			done
+		else
+			liczba=`ls -1 -a | wc -l`
+			liczba=`expr $liczba - 2`
+			echo $liczba
+		fi
+	else
+		while [ "$licznik" -lt "$#" ] 
+                        do
+				licznik=$((licznik+1))
+                        	liczba=`ls -1 ${!licznik} | wc -l`
+                                echo $liczba
+                        done
+	fi	
+else
+	ls -1 | wc -l
+fi

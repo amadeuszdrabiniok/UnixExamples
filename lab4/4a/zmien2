@@ -1,0 +1,3 @@
+name=`echo "$1" | tr -c '[:alnum:]' '[_*]'`
+echo "$1"
+echo "$name"

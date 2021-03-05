@@ -1,0 +1,5 @@
+data operacji,data ksiegowania,numer konta operacji,kwota operacji,opis slowny operacji,saldo
+24-12-2013,26-12-2013,1234567,1037.33,przelew wynagrodzenia,2045.17
+28-12-2013,30-12-2013,9876543,-350.00,wyplata gotowki w kasie,1695.17
+29-12-2013,31-12-2013,1357986,-1000.00,splata raty kredytu,695.17
+14-11-2015,15-11-2015,12342134,25000,przelew od wujka z ameryki,2595.17

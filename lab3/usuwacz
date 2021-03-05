@@ -1,0 +1,12 @@
+#!/bin/sh
+find $HOME/.smietnik./ -ctime +14 -exec rm {} \;
+
+if [ -n "$1" ]
+then
+	n=1
+	while [ "$n" -le "$#" ]
+	do
+		mv ${!n} $HOME/.smietnik.
+		n=$((n+1))
+	done
+fi
